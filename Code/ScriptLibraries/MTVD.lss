@@ -1,0 +1,66 @@
+'++LotusScript Development Environment:2:5:(Options):0:74
+Option Public
+Option Declare
+Use "utilities"
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub pvwc(key As String)
+Declare Function getTL(TL As Integer) As String
+Declare Sub Initialize
+
+'++LotusScript Development Environment:2:5:(Declarations):0:10
+Dim pvwclist() As String
+Dim pvwcflag As Boolean
+Dim pvwcerr As String
+Dim pvwci As Integer
+
+Const TLs = "0#1#2#3#4#5#6#7#8#9#A#B#C#D#E#F#G#H"
+
+
+
+
+'++LotusScript Development Environment:2:2:pvwc:1:8
+Sub pvwc(key As String)
+	
+	pvwcflag = True
+	pvwcerr = ""
+	
+	Set keyword=keywords.Getentrybykey(key)
+	If keyword Is Nothing Then
+		' can't find key
+		pvwcflag=False
+		pvwcerr="Cannot find Key"
+		Exit Sub
+	End If
+	
+	Dim pvwctls As Variant
+	Dim pvwcnames As Variant
+	Dim pvwcvals As Variant
+	
+	pvwcTLs=keyword.columnvalues(1)
+	pvwcnames=keyword.columnvalues(2)
+	pvwcvals=keyword.columnvalues(3)
+	
+	Redim pvwclist(Ubound(pvwcTLs),2)
+	For pvwci=0 To Ubound(pvwcTLs)
+		pvwclist(pvwci,0)="TL"+getTL(Cint(pvwcTLs(pvwci)))
+		pvwclist(pvwci,1)=pvwcnames(pvwci)
+		pvwclist(pvwci,2)=pvwcvals(pvwci)
+	Next
+End Sub
+'++LotusScript Development Environment:2:1:getTL:1:8
+Function getTL(TL As Integer) As String
+	If TL>17 Then 
+		getTL="X"
+		Exit Function
+	Elseif TL<0 Then
+		getTL="0"
+		Exit Function		
+	End If
+	
+	getTL=Strtoken(TLs,"#",TL+1)
+	
+End Function
+'++LotusScript Development Environment:2:2:Initialize:1:10
+Sub Initialize
+	Redim pwvc(0,0)
+End Sub

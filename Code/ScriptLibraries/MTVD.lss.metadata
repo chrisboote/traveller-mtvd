@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="3.0" replicaid="802576340047A538" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="132" sequence="63" unid="D9C57EBCF3F8A18280257050003E4948">
+<created><datetime dst="true">20050801T122019,92+01</datetime></created>
+<modified><datetime>20100114T121309,50+00</datetime></modified>
+<revised><datetime>20100114T121309,49+00</datetime></revised>
+<lastaccessed><datetime>20100114T121309,49+00</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20090917T140240,05+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Chris B. Boote/OU=MHD/O=Effem</name><name>CN=Christopher Boote/OU=D122/OU=DEPTS/OU=UK/O=FWUK/C=GB</name><name>CN=Chris Boote/O=Changework Now Ltd</name><name>CN=Uk Developer/OU=NatMags/O=HearstUK</name></updatedby>
+<wassignedby><name>CN=Uk Developer/OU=NatMags/O=HearstUK</name></wassignedby>
+<item name="$TITLE" sign="true"><text>MTVD</text></item>
+<item name="$Flags"><text>s34Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+
+</note>

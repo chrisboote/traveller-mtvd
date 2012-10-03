@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="802576340047A538" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="15e" sequence="3" unid="C256BAA3F788951F8025702200550332">
+<created><datetime dst="true">20050616T162833,78+01</datetime></created>
+<modified><datetime dst="true">20090917T140316,40+01</datetime></modified>
+<revised><datetime dst="true">20090619T090404,60+01</datetime></revised>
+<lastaccessed><datetime dst="true">20090917T140316,36+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20090917T140316,36+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Chris Boote/OU=AMA/O=ALLIANZ-MA</name><name>CN=Chris Boote/O=Changework Now Ltd</name><name>CN=Uk Developer/OU=NatMags/O=HearstUK</name></updatedby>
+<wassignedby><name>CN=Uk Developer/OU=NatMags/O=HearstUK</name></wassignedby>
+<item name="$TITLE"><text>ct.css</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+
+<item name="$FileModDT" sign="true"><datetime dst="true">20050616T162826,08+01</datetime></item>
+
+<item name="$FileNames" sign="true"><text>ct.css</text></item>
+<item name="$DesignerVersion"><text>6.5</text></item>
+<item name="$EditFilePath"><text>C:\DOCUME~1\Cboote\LOCALS~1\Temp\notes2DCE84\~ct.css</text></item>
+<item name="$Flags"><text>34C=Q$</text></item></note>

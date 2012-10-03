@@ -1,0 +1,92 @@
+'++LotusScript Development Environment:2:5:(Options):0:74
+Option Public
+Option Declare
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub out(out$)
+Declare Sub Initialize
+Declare Function getURLParms(querystring As String) As Variant
+Declare Function getParm(parmArray As Variant, parm As String) As String
+Declare Sub f_exit
+
+'++LotusScript Development Environment:2:5:(Declarations):0:10
+Dim debug As Variant
+Dim session As notessession
+Dim db As notesdatabase
+Dim view As notesview
+Dim col As notesdocumentcollection
+Dim ve As notesviewentry
+Dim doc As notesdocument
+
+Dim keywords As notesview
+Dim keyword As notesviewentry
+
+Dim uiws As notesuiworkspace
+Dim uidoc As notesuidocument
+
+
+'++LotusScript Development Environment:2:2:out:1:8
+Sub out(out$)
+	If debug=True Then
+		Print out$+"<br>"
+	End If
+End Sub
+'++LotusScript Development Environment:2:2:Initialize:1:10
+Sub Initialize
+	debug=False
+	
+	Set session=New notessession
+	Set db=session.currentdatabase
+	
+	Set uiws=New notesuiworkspace
+	Set uidoc=uiws.currentdocument	
+	
+End Sub
+
+'++LotusScript Development Environment:2:1:getURLParms:1:8
+Function getURLParms(querystring As String) As Variant
+	out "getURLParms"
+	
+	Dim firstArray As Variant, secondArray() As String
+	Dim arrayCount As Long
+	
+	getURLParms=""
+	If querystring="" Or Instr(querystring,"&")=0 Then
+		Exit Function
+	End If
+	
+	querystring=Strright(querystring,"&")
+	firstArray=Split(querystring,"&")
+	
+	Redim secondArray(Ubound(firstarray),1)
+	For arrayCount=0 To Ubound(firstarray)
+		secondArray(arraycount,0)=Strleft(firstArray(arrayCount),"=")
+		secondArray(arraycount,1)=Strright(firstArray(arrayCount),"=")
+	Next
+	
+	getURLParms=secondArray
+	
+	out "exit getURLParms"
+End Function
+
+'++LotusScript Development Environment:2:1:getParm:1:8
+Function getParm(parmArray As Variant, parm As String) As String
+	out "getParm"
+	
+	Dim arrayIndex As Variant
+	getParm=""
+	
+	arrayIndex=Arraygetindex( parmArray, parm, 5 ) 
+	If Typename(arrayIndex) <>"NULL" Then
+		getParm=parmArray(Clng(arrayIndex),1)
+	End If
+	
+	out "exit getParm"
+End Function
+
+'++LotusScript Development Environment:2:2:f_exit:1:8
+Sub f_exit
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Set uidoc=ws.currentdocument
+	Call uidoc.refresh()
+End Sub

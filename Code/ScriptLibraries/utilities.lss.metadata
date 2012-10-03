@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="3.0" replicaid="802576340047A538" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="136" sequence="22" unid="EF7D5D886A605727802570200035E99B">
+<created><datetime dst="true">20050614T104852,11+01</datetime></created>
+<modified><datetime>20100114T121309,47+00</datetime></modified>
+<revised><datetime>20100114T121309,46+00</datetime></revised>
+<lastaccessed><datetime>20100114T121309,46+00</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20090917T140240,05+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Chris Boote/OU=AMA/O=ALLIANZ-MA</name><name>CN=Chris B. Boote/OU=MHD/O=Effem</name><name>CN=Chris Boote/O=Changework Now Ltd</name><name>CN=Christopher Boote/O=RIM</name><name>CN=Uk Developer/OU=NatMags/O=HearstUK</name></updatedby>
+<wassignedby><name>CN=Uk Developer/OU=NatMags/O=HearstUK</name></wassignedby>
+<item name="$TITLE" sign="true"><text>utilities</text></item>
+<item name="$Flags"><text>s34Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+
+</note>

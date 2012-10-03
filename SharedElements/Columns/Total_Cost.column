@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='802576340047A538'>
+<noteinfo noteid='162' unid='803F81781E44C33180257506003D1EAE' sequence='5'>
+<created><datetime>20081119T110735,50+00</datetime></created>
+<modified><datetime>20100114T121311,64+00</datetime></modified>
+<revised><datetime>20100114T121311,63+00</datetime></revised>
+<lastaccessed><datetime>20100114T121311,61+00</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20090917T140316,36+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Uk Developer/OU=NatMags/O=HearstUK</name></updatedby>
+<wassignedby><name>CN=Uk Developer/OU=NatMags/O=HearstUK</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$SourceSeqTime'><datetime>20081119T110735,50+00</datetime></item>
+<item name='$SourceSequence'><text>00000001</text></item>
+<item name='$TITLE' sign='true'><text>Total_Cost</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+iAACAFwAAwAkMTIABQAKAFB1cnBvc2VVQ1AAAAAAAAAAAPA/YAIBAAEATwAKAq8ALAAKAAEAAACu
+ACIABQAKAFRvdGFsX0Nvc3QAAAAAAACAhC5BJQKuAAQAtQMDAAUAHgAaAAMAAwAJAAQAJDEyJENv
+bmZsaWN0JFJFRgQABAAAAAgAZgADAA==
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+BgAAAABE
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQABAAEACAAAAFZDiAADAAMAagAAADgABQDPCEEAAwEBAAAAAAICAAAAJDEyTUNyagACAFwAAwAk
+MTIABQAKAFB1cnBvc2VVQ1AAAAAAAAAAAPA/YAIBAAEATwAKAq8ALAAKAAEAAACuACIABQAKAFRv
+dGFsX0Nvc3QAAAAAAACAhC5BJQKuAAQAtQMDAAcADAAFAAkwUzBFACYAAQAAAAEBAAkBAAAKAQEO
+CgAAAQCtKwEAAQABAAAAAAAAAAAAV0MGAAAJAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAA//8AAAAA
+AAAAAAAAAAAAAEIAAAAAAAEA////AAUA////AAEAAAAAAAAAAAAAAAAAAQD///8AAQD///8AAAAB
+AAAAAAABAAAAAAABAAAAAAAAAAgAAAAAAAEAWUMDAQEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAA
+AAAAAQAAAAAAAAAAAAAAAAAAAAAAAC4snAA=
+</rawitemdata></item>
+<item name='$Fonts' sign='true'><textlist><text>5</text><text>38</text><text
+>Metrostyle</text><text>6</text><text>38</text><text>Metrostyle Extended</text></textlist></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>^Y</text></item>
+<item name='$DesignerVersion'><text>7</text></item></note>
+

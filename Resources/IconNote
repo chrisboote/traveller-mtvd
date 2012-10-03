@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='8.5'
+ maintenanceversion='3.0' replicaid='802576340047A538'>
+<noteinfo noteid='11a' unid='FF57B40D765E85EB802570200035BC91' sequence='23'>
+<created><datetime dst='true'>20050614T104656,81+01</datetime></created>
+<modified><datetime dst='true'>20090917T140423,47+01</datetime></modified>
+<revised><datetime dst='true'>20090917T140423,46+01</datetime></revised>
+<lastaccessed><datetime dst='true'>20090917T140423,44+01</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20090917T140233,88+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Uk Developer/OU=NatMags/O=HearstUK</name></updatedby>
+<item name='IconBitmap' summary='true'>
+<rawitemdata type='6'>
+AiAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMzMzMzMzMzMzMzMzMwAZmZmZm
+ZmZmZmZmZmZmZsAGwAAAAAAAAAAAAAAAAAbABsAAAAAAAGAGAAAAAAAGwAbAAAAAYAZgZgAGAAAA
+BsAGwAAAZgYGYGZgZgYAAAbABsAAAAYGZmZmZmBmAAAGwAbAAGYGZmAAAAZmYAYABsAGwAYAZmAM
+zMzABmZgYAbABsAAZmYMxmbMzMBmBgAGwAbAZmZgZmZmZszMBmYABsAGwABmYGZmZmZmzAZgAAbA
+BsAABgZmZmZmZszAYAAGwAbABmYGZmZmZmZswGZgBsAGwGZmBmZmZmZmbMBmZgbABsAABgZmZmZm
+ZmbAYAAGwAbABmYGZmZmZmZmwGZmBsAGwGZmBmZmZmZmZsBmYAbABsAAZmBmZmZmZmwGYAAGwAbA
+AGZgZmZmZmZsBmAABsAGwABgZgZmZmZmYGZmYAbABsAGBmZgBmZmYAZmYAAGwAbAAGYGZmAAAAZm
+YAYABsAGwAAABmBmZmZgZgYAAAbABsAAAAYGZmBmZgZgAAAGwAbAAAAAYABgZgZgAAAABsAGwAAA
+AAAAYGAAAAAAAAbABsAAAAAAAAAAAAAAAAAGwAbMzMzMzMzMzMzMzMzMxsAGZmZmZmZmZmZmZmZm
+ZmYAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$Flags'><text>Jf7R</text></item>
+<item name='$FlagsNoRefresh'><text/></item>
+<item name='$TITLE'><text>MTVD</text></item></note>
+
